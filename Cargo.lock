@@ -177,6 +177,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "cw-may"
+version = "0.1.0"
+dependencies = [
+ "base64",
+ "cosmwasm-schema",
+ "cosmwasm-std",
+ "cw-storage-plus",
+ "cw0 0.9.1",
+ "cw2",
+ "cw721",
+ "getrandom 0.2.3",
+ "schemars",
+ "serde",
+ "serde-json-wasm",
+ "sha2 0.8.2",
+ "terraswap",
+ "thiserror",
+]
+
+[[package]]
 name = "cw-storage-plus"
 version = "0.9.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -671,26 +691,6 @@ dependencies = [
  "cosmwasm-std",
  "schemars",
  "serde",
-]
-
-[[package]]
-name = "terra-peep721"
-version = "0.4.2"
-dependencies = [
- "base64",
- "cosmwasm-schema",
- "cosmwasm-std",
- "cw-storage-plus",
- "cw0 0.9.1",
- "cw2",
- "cw721",
- "getrandom 0.2.3",
- "schemars",
- "serde",
- "serde-json-wasm",
- "sha2 0.8.2",
- "terraswap",
- "thiserror",
 ]
 
 [[package]]

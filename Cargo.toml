@@ -1,8 +1,10 @@
 [package]
-name = "terra-peep721"
-version = "0.4.2"
-authors = ["PFC"]
+name = "cw-may"
+version = "0.1.0"
+authors = ["Yuniel Acosta"]
 edition = "2018"
+description = "Simple CosmWasm contract for an escrow with arbiter and timeout"
+repository = "https://github.com/yacosta738/terra-peep721"
 
 exclude = [
   # Those files are rust-optimizer artifacts. You might want to commit them for convenience but they should not be part of the source code publication.
